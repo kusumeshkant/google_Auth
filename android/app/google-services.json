@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1043800682484",
+    "project_id": "login-auth-2186b",
+    "storage_bucket": "login-auth-2186b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043800682484:android:46711968086187e35153a1",
+        "android_client_info": {
+          "package_name": "com.example.google_auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043800682484-vo9qqj9gakv0ds047hro75j3hi20knf6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCET7bWOPhTABavKlj7mkZJEbN1I4uDJYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043800682484-vo9qqj9gakv0ds047hro75j3hi20knf6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
