@@ -19,6 +19,7 @@ class _LoginState extends State<Login> {
       child: Scaffold(
         body: Stack(
           children: [
+
             Positioned(
               top: 0,
                 child: Container(
@@ -27,6 +28,12 @@ class _LoginState extends State<Login> {
                   child: Image.asset('assets/images/login.jpg',
                   fit: BoxFit.fill,),
                 )),
+            Positioned(
+              top: 300,
+
+                child: Container(
+                child:  Image.asset('assets/images/home.png', fit: BoxFit.cover,),
+            )),
             Positioned(
               bottom: 0,
               child: Container(
@@ -37,7 +44,7 @@ class _LoginState extends State<Login> {
                     topLeft: Radius.circular(20),
                     topRight: Radius.circular(20),
                   ),
-                  color: Colors.orange,
+                  //color: Colors.orange,
                 ),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -57,31 +64,13 @@ class _LoginState extends State<Login> {
                         ),
                       ),
                     ),
-                    SizedBox(
-                      height: 30,),
-                        Container(
-                          height: 52,
-                          width: 343,
-                          decoration: BoxDecoration(
-                              border: Border.all(color: Style.primary),
-                              borderRadius: BorderRadius.circular(20)
-                          ),
-                          child: TextFormField(
-                            decoration: InputDecoration(
-                              hintText: '  Passward',
-                              border: InputBorder.none,
-                              hintStyle: Style.h6(Style.primary),
-                            ),
-                          ),
-                        )
-
 
                   ],
                 ),
               ),
             ),
             Positioned(
-              top: 300,
+              top: 320,
               left: 30,
               right: 30,
               child: GestureDetector(

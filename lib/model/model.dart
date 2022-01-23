@@ -24,5 +24,10 @@ class SignIN_provider extends ChangeNotifier{
 
     notifyListeners();
   }
+
+  Future Logout () async{
+    await signIn.disconnect();
+    FirebaseAuth.instance.signOut();
+  }
 }
 
